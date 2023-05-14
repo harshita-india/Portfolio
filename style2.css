@@ -319,7 +319,17 @@ h1 {
   border-radius: 6px;
   box-shadow: 5px 10px #2196F3;
 }
-
+@media screen and (max-width: 670px){
+	.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin-top: 59px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 67px;
+	}}
 @media screen and (max-width: 768px) {
   /* Place the timelime to the left */
     .timeline::after {
